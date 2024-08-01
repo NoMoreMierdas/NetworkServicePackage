@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "NetworkServicePackage",
+    name: "Network Service",
     platforms: [
       .macOS(.v14),
       .iOS(.v17)
@@ -12,7 +12,7 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "NetworkServicePackage",
+            name: "NetworkService",
             targets: ["NetworkServicePackage"]),
     ],
     targets: [
